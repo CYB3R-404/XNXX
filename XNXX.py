@@ -89,7 +89,7 @@ logo =                                          """
  
 \033[0;93mFACEBOOK : RINKU 
  
-\033[0;96mGITHUB   : RINKU404-CYBER
+\033[0;96mGITHUB   : RinkuVau
  
 \033[0;95mTOOLS    : FILE CLONING
 \033[0;96m~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ """                                              
@@ -99,7 +99,7 @@ def hasil(OK,cp):
 	    pass
 	if len(cp) != 0:
 	    print('\n\n \x1b[1;92mTOTAL OK : \x1b[1;92m %s  \x1b[1;92mRINKU_OK.txt' % (H, P, str(len(ok))))
-	    print(' \x1b[1;91mTOTAL CP :\x1b[1;91m   %s \x1b[1;91RINKU_CP.txt' % (H, P, str(len(cp))))
+	    
 	    input("\x1b[1;92mPRESS ENTER TO BACK MENU ")
 	    sarfraz()
 
